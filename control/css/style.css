@@ -24,6 +24,12 @@
 /* ====================
 [1] General
 ==================== */
+p,i,h1,h2,h3,h4,h5,h6,span,body,a,button,section{
+    font-style: italic;
+    font-family: 'codropsicons';
+
+
+}
 *{
     box-sizing:border-box;
 }
@@ -286,11 +292,11 @@ End Of Loading Animation
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons.eot');
-	src:url('../fonts/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons.svg#codropsicons') format('svg');
+	src:url('../fonts/iranyekanwebregular.woff');
+	src:url('../fonts/iranyekan.eot') format('embedded-opentype'),
+		url('../fonts/iranyekan.woff') format('woff'),
+		url('../fonts/iranyekan.ttf') format('truetype'),
+		
 }
 .large-header {
     display:none;
