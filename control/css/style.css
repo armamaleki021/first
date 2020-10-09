@@ -51,7 +51,7 @@ section {
     display:table;
     position:fixed;
     top:0;
-    left:0;
+    right:0;
     width:100%;
     height:100%;
     background-color:#000;
@@ -72,7 +72,7 @@ section {
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
 }
 
@@ -88,59 +88,59 @@ section {
           animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
 }
 .sk-fading-circle .sk-circle2 {
-  -webkit-transform: rotate(30deg);
-      -ms-transform: rotate(30deg);
-          transform: rotate(30deg);
+  -webkit-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+          transform: rotate(-30deg);
 }
 .sk-fading-circle .sk-circle3 {
-  -webkit-transform: rotate(60deg);
-      -ms-transform: rotate(60deg);
-          transform: rotate(60deg);
+  -webkit-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+          transform: rotate(-60deg);
 }
 .sk-fading-circle .sk-circle4 {
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .sk-fading-circle .sk-circle5 {
-  -webkit-transform: rotate(120deg);
-      -ms-transform: rotate(120deg);
-          transform: rotate(120deg);
+  -webkit-transform: rotate(-120deg);
+      -ms-transform: rotate(-120deg);
+          transform: rotate(-120deg);
 }
 .sk-fading-circle .sk-circle6 {
-  -webkit-transform: rotate(150deg);
-      -ms-transform: rotate(150deg);
-          transform: rotate(150deg);
+  -webkit-transform: rotate(-150deg);
+      -ms-transform: rotate(-150deg);
+          transform: rotate(-150deg);
 }
 .sk-fading-circle .sk-circle7 {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 .sk-fading-circle .sk-circle8 {
-  -webkit-transform: rotate(210deg);
-      -ms-transform: rotate(210deg);
-          transform: rotate(210deg);
+  -webkit-transform: rotate(-210deg);
+      -ms-transform: rotate(-210deg);
+          transform: rotate(-210deg);
 }
 .sk-fading-circle .sk-circle9 {
-  -webkit-transform: rotate(240deg);
-      -ms-transform: rotate(240deg);
-          transform: rotate(240deg);
+  -webkit-transform: rotate(-240deg);
+      -ms-transform: rotate(-240deg);
+          transform: rotate(-240deg);
 }
 .sk-fading-circle .sk-circle10 {
-  -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-          transform: rotate(270deg);
+  -webkit-transform: rotate(-270deg);
+      -ms-transform: rotate(-270deg);
+          transform: rotate(-270deg);
 }
 .sk-fading-circle .sk-circle11 {
-  -webkit-transform: rotate(300deg);
-      -ms-transform: rotate(300deg);
-          transform: rotate(300deg); 
+  -webkit-transform: rotate(-300deg);
+      -ms-transform: rotate(-300deg);
+          transform: rotate(-300deg); 
 }
 .sk-fading-circle .sk-circle12 {
-  -webkit-transform: rotate(330deg);
-      -ms-transform: rotate(330deg);
-          transform: rotate(330deg); 
+  -webkit-transform: rotate(-330deg);
+      -ms-transform: rotate(-330deg);
+          transform: rotate(-330deg); 
 }
 .sk-fading-circle .sk-circle2:before {
   -webkit-animation-delay: -1.1s;
@@ -223,7 +223,7 @@ End Of Loading Animation
     font-size: 14px;
     color: #FFF;
     line-height:40px;
-    padding-right:0 20px;
+    padding-left:0 20px;
     letter-spacing:1px;
     text-transform:capitalize;
     font-weight:500;
@@ -308,8 +308,8 @@ End Of Loading Animation
     height:100%;
     position:absolute;
     top:0;
-    left:0;
-    text-align:left;
+    right:0;
+    text-align:right;
 }
 #home h1 {
     color:#f9f9f9;
@@ -377,8 +377,8 @@ End Of Loading Animation
     line-height:32px;
     letter-spacing:1px;
     font-weight:300;
-    text-align:left;
-    margin:30px 39px 10px 10px;
+    text-align:right;
+    margin:30px 10px 10px 39px;
     color:#333;
     padding-bottom:30px;
 }
@@ -446,7 +446,7 @@ End Of Loading Animation
 }
 .feature {
     padding:20px 0;
-    background:none repeat scroll 0 0 #fff;
+    background:none repeat scroll 100% 0 #fff;
     color:#777;
     box-shadow:0 0 20px #999;
     margin:15px auto;
@@ -519,7 +519,7 @@ figure figcaption,
 figure figcaption > a {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 }
@@ -558,31 +558,31 @@ figure.effect img {
 figure.effect figcaption::before {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(255,255,255,0.5);
 	content: '';
 	-webkit-transition: -webkit-transform 0.6s;
 	transition: transform 0.6s;
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
-	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,-45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,-45deg) translate3d(0,-100%,0);
 }
 figure.effect p {
 	position: absolute;
-	right: 0;
+	left: 0;
 	bottom: 0;
 	margin: 3em;
 	padding: 0 1em;
 	max-width: 150px;
-	border-right: 4px solid #fff;
-	text-align: right;
+	border-left: 4px solid #fff;
+	text-align: left;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 figure.effect h2 {
-	text-align: left;
+	text-align: right;
 }
 figure.effect:hover img {
 	opacity: 0.6;
@@ -590,8 +590,8 @@ figure.effect:hover img {
 	transform: scale3d(1,1,1);
 }
 figure.effect:hover figcaption::before {
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
-	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,-45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,-45deg) translate3d(0,100%,0);
 }
 figure.effect:hover p {
 	opacity: 1;
@@ -724,7 +724,7 @@ Hire Me
     border-radius:6px;
     padding:10px;
     display:table;
-    text-align:left;
+    text-align:right;
     -webkit-transition:all .27s ease-in-out;
     transition:all .27s ease-in-out;
     
@@ -781,7 +781,7 @@ p.address:before {
 .form_info {  
 	width:100%;
 	height:100%;
-	text-align:left;
+	text-align:right;
 	border-bottom: 2px solid crimson;
 	padding:8px 10px 8px 10px;
 	font: normal 14px Raleway;
@@ -857,7 +857,7 @@ p.address:before {
     }
     /* contact */
     .tab {
-        margin-left:15px;
+        margin-right:15px;
     }
 }
 /* Mobile Layout lower than: 320px. */
@@ -876,7 +876,7 @@ p.address:before {
     }
     /* contact */
     .tab {
-        margin-left:15px;
+        margin-right:15px;
     }
     /*portfolio */
     figure {
@@ -915,7 +915,7 @@ p.address:before {
         line-height:25px;
     }
     #about p {
-        margin: 30px 20px 10px 10px;
+        margin: 30px 10px 10px 20px;
     }
     #about h3 {
         line-height: 25px;
@@ -945,7 +945,7 @@ p.address:before {
 .box {
     position:fixed;
     top:150px;
-    left:-160px;
+    right:-160px;
     height:180px;
     width:160px;
     background-color:#404040;
@@ -955,7 +955,7 @@ p.address:before {
 }
 .option {
     position:absolute;
-    left:160px;
+    right:160px;
     z-index:1001;
     height:50px;
     width:50px;
@@ -965,28 +965,28 @@ p.address:before {
 .color {
     position:absolute;
     top:10px;
-    left:10px;
+    right:10px;
     width:40px;
     height:40px;
     background-color:crimson;
     z-index:1001;
 }
 .green {
-    left:60px;
+    right:60px;
     background-color:#2ecc71;
 }
 .blue {
-    left:110px;
+    right:110px;
     background-color:#3498db;
 }
 .orange {
     top:60px;
-    left:10px;
+    right:10px;
     background-color:#f39c12;
 }
 .purple {
     top:60px;
-    left:60px;
+    right:60px;
     background-color:#9b59b6;
 }
 .color:hover {
@@ -994,13 +994,13 @@ p.address:before {
 }
 .box .fa {
    position:absolute;
-   left:10px;
+   right:10px;
     top:10px;
     color:#FFF;
     transition:all .5s ease-in-out;
 }
 .open {
-    left:0;
+    right:0;
 }
 .lang {
     position:absolute;
@@ -1009,7 +1009,7 @@ p.address:before {
     height:30px;
     color:#404040;
     top:120px;
-    left:10px;
+    right:10px;
     text-align:center;
     line-height:2;
     font-weight:bold;
@@ -1020,5 +1020,5 @@ p.address:before {
     color:#FFF;
 }
 .ar {
-    left:90px;
+    right:90px;
 }
